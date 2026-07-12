@@ -27,7 +27,7 @@ const CATEGORIES = [
     icon: Package,
     title: 'Legumbres',
     description: 'Lentejas, garbanzos, porotos y arvejas. Proteína vegetal de primera calidad.',
-    image: 'https://images.pexels.com/photos/5193664/pexels-photo-5193664.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+    image: 'https://www.directoalpaladar.com/salud/tipos-legumbres-sus-nutrientes-beneficios-al-momento-adelgazar',
     items: ['Lentejas', 'Garbanzos', 'Porotos', 'Arvejas', 'Soja', 'Lentejas rojas'],
   },
   {
