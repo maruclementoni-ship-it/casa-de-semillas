@@ -1,11 +1,11 @@
 import { Nut, Wheat, Leaf, Cookie, Flame, Package } from 'lucide-react';
 import { whatsappLink } from '../lib/constants';
 import frutosSecos from './frutos secos.jpg';
-import semillas from './semillas.jpeg';
-import cereales from './cereales y arinas.jpeg';
-import legumbres from './legumbres.jpeg';
-import especias from './especias.jpeg';
-import reposteria from './image_dbe655b7.png';
+import semillasImg from './semillas.jpeg';
+import cerealesImg from './cereales y arinas.jpeg';
+import legumbresImg from './legumbres.jpeg';
+import especiasImg from './especias.jpeg';
+import reposteriaImg from './image_dbe655b7.png';
 
 const CATEGORIES = [
   {
@@ -19,35 +19,35 @@ const CATEGORIES = [
     icon: Leaf,
     title: 'Semillas',
     description: 'Chía, lino, girasol, sésamo y amapola. Súper alimentos para enriquecer tus comidas.',
-    image: semillas,
+    image: semillasImg,
     items: ['Chía', 'Lino', 'Girasol', 'Sésamo', 'Amapola', 'Calabaza'],
   },
   {
     icon: Wheat,
     title: 'Cereales y Harinas',
     description: 'Avena, granola, harinas integrales y sin TACC. La base de una alimentación saludable.',
-    image: cereales,
+    image: cerealesImg,
     items: ['Avena', 'Granola', 'Harina integral', 'Harina de coco', 'Quinoa', 'Cebada'],
   },
   {
     icon: Package,
     title: 'Legumbres',
     description: 'Lentejas, garbanzos, porotos y arvejas. Proteína vegetal de primera calidad.',
-    image: legumbres,
+    image: legumbresImg,
     items: ['Lentejas', 'Garbanzos', 'Porotos', 'Arvejas', 'Soja', 'Lentejas rojas'],
   },
   {
     icon: Flame,
     title: 'Especias',
     description: 'Condimentos naturales y mezclas para realzar el sabor de tus platos favoritos.',
-    image: especias,
+    image: especiasImg,
     items: ['Pimentón', 'Cúrcuma', 'Comino', 'Orégano', 'Pimienta', 'Mezclas'],
   },
   {
     icon: Cookie,
     title: 'Repostería',
     description: 'Productos para repostería, regionales e importados. Todo lo que necesitás para tus recetas.',
-    image: reposteria,
+    image: reposteriaImg,
     items: ['Cacao', 'Vainilla', 'Frutas disecadas', 'Chips de chocolate', 'Coco rallado', 'Miel'],
   },
 ];
