@@ -1,47 +1,53 @@
 import { Nut, Wheat, Leaf, Cookie, Flame, Package } from 'lucide-react';
 import { whatsappLink } from '../lib/constants';
+import frutosSecos from './frutos secos.jpg';
+import semillas from './semillas.jpeg';
+import cereales from './cereales y arinas.jpeg';
+import legumbres from './legumbres.jpeg';
+import especias from './especias.jpeg';
+import reposteria from './image_dbe655b7.png';
 
 const CATEGORIES = [
   {
     icon: Nut,
     title: 'Frutos Secos',
     description: 'Almendras, nueces, castañas de cajú, avellanas, maní y más. Calidad premium para el día a día o tu emprendimiento.',
-    image: require('./frutos secos.jpg'),
+    image: frutos secos,
     items: ['Almendras', 'Nueces', 'Castañas de cajú', 'Avellanas', 'Maní', 'Mix de frutos'],
   },
   {
     icon: Leaf,
     title: 'Semillas',
     description: 'Chía, lino, girasol, sésamo y amapola. Súper alimentos para enriquecer tus comidas.',
-    image: require('./semillas.jpeg'),
+    image: semillas,
     items: ['Chía', 'Lino', 'Girasol', 'Sésamo', 'Amapola', 'Calabaza'],
   },
   {
     icon: Wheat,
     title: 'Cereales y Harinas',
     description: 'Avena, granola, harinas integrales y sin TACC. La base de una alimentación saludable.',
-    image: require('./cereales y arinas.jpeg'),
+    image: cereales y arinas,
     items: ['Avena', 'Granola', 'Harina integral', 'Harina de coco', 'Quinoa', 'Cebada'],
   },
   {
     icon: Package,
     title: 'Legumbres',
     description: 'Lentejas, garbanzos, porotos y arvejas. Proteína vegetal de primera calidad.',
-    image: require('./legumbres.jpeg'),
+    image: legumbres,
     items: ['Lentejas', 'Garbanzos', 'Porotos', 'Arvejas', 'Soja', 'Lentejas rojas'],
   },
   {
     icon: Flame,
     title: 'Especias',
     description: 'Condimentos naturales y mezclas para realzar el sabor de tus platos favoritos.',
-    image: require('./especias.jpeg'),
+    image: especias,
     items: ['Pimentón', 'Cúrcuma', 'Comino', 'Orégano', 'Pimienta', 'Mezclas'],
   },
   {
     icon: Cookie,
     title: 'Repostería',
     description: 'Productos para repostería, regionales e importados. Todo lo que necesitás para tus recetas.',
-    image: require('./image_dbe655b7.png'),
+    image: image_dbe655b7,
     items: ['Cacao', 'Vainilla', 'Frutas disecadas', 'Chips de chocolate', 'Coco rallado', 'Miel'],
   },
 ];
