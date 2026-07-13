@@ -12,7 +12,7 @@ const CATEGORIES = [
     icon: Nut,
     title: 'Frutos Secos',
     description: 'Almendras, nueces, castañas de cajú, avellanas, maní y más. Calidad premium para el día a día o tu emprendimiento.',
-    image: frutos secos,
+    image: frutosSecos,
     items: ['Almendras', 'Nueces', 'Castañas de cajú', 'Avellanas', 'Maní', 'Mix de frutos'],
   },
   {
@@ -26,7 +26,7 @@ const CATEGORIES = [
     icon: Wheat,
     title: 'Cereales y Harinas',
     description: 'Avena, granola, harinas integrales y sin TACC. La base de una alimentación saludable.',
-    image: cereales y arinas,
+    image: cereales,
     items: ['Avena', 'Granola', 'Harina integral', 'Harina de coco', 'Quinoa', 'Cebada'],
   },
   {
@@ -47,7 +47,7 @@ const CATEGORIES = [
     icon: Cookie,
     title: 'Repostería',
     description: 'Productos para repostería, regionales e importados. Todo lo que necesitás para tus recetas.',
-    image: image_dbe655b7,
+    image: reposteria,
     items: ['Cacao', 'Vainilla', 'Frutas disecadas', 'Chips de chocolate', 'Coco rallado', 'Miel'],
   },
 ];
